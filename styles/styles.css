@@ -1,0 +1,152 @@
+:root {
+    --border: #3d3d3d;
+
+}
+
+/* @ generals */
+* {
+   box-sizing: border-box; 
+   padding: 0px;
+   margin: 0px;
+
+   text-decoration: none;
+   list-style: none;
+}
+
+body {
+   background-image: url(../img/star.jpg);
+   /* background-color: #000000; */
+   background-position: center; 
+   background-repeat: repeat; 
+   background-size: cover;
+
+   color: white;
+}
+
+a {
+    color: white;
+}
+
+/* @ home page */
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-top {
+    display: flex;
+    justify-content: center;
+
+    padding: 15px;
+
+    margin-left: 300px;
+    margin-right: 300px;
+
+    /* background-color: black; */
+}
+
+.main-bottom {
+    display: flex;
+    color: white;
+
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+    .gap {
+        /* margin: 100px; */
+    }
+
+.home-left {
+    padding: 5px;
+    margin: 5px;
+
+
+    /* border: solid 2px red; */
+}
+
+.home-middle {
+    flex-grow: 1;
+    padding: 5px;
+    margin: 5px;
+
+
+    background-color: black;
+    border: solid 2px var(--border);
+}
+
+.home-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+    padding: 10px;
+    /* margin: 5px; */
+
+
+    /* border: solid 2px blue; */
+}
+
+    .mainHR {
+        border-top: 1px solid darkgrey;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+        background-color: black;
+        border: solid 2px var(--border);
+    }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+
+            font-size: 30px;
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: column;
+
+            gap: 10px;
+            padding: 5px;
+        }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        
+        /* border: solid 2px gray; */
+    }
+
+        .live-notif {
+            padding: 10px;
+
+            background-color: black;
+            border: solid 2px var(--border);
+        }
+
+        .neon {
+            margin: 5px;
+            font-size: 30px;
+        }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+
+        background-color: black;
+        border: solid 2px var(--border);
+    }
+
+        .footer-left {
+            padding: 5px;
+        }
