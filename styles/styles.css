@@ -15,7 +15,7 @@
 
 body {
    background-image: url(../img/star.jpg);
-   /* background-color: #000000; */
+   background-color: #000000;
    background-position: center; 
    background-repeat: repeat; 
    background-size: cover;
@@ -25,6 +25,12 @@ body {
 
 a {
     color: white;
+}
+
+/* @ Animations */
+
+a :hover {
+    color: hotpink;
 }
 
 /* @ home page */
@@ -71,10 +77,19 @@ a {
     padding: 5px;
     margin: 5px;
 
+    display: flex;
+    flex-direction: column;
+
 
     background-color: black;
     border: solid 2px var(--border);
 }
+
+    .recent-vid {
+        display: flex;
+        flex-direction: column;
+        
+    }
 
 .home-right {
     display: flex;
@@ -137,6 +152,9 @@ a {
             margin: 5px;
             font-size: 30px;
         }
+
+        
+    
 
     footer {
         display: flex;
